@@ -16,7 +16,7 @@
     "scripts/spess-test-module.mjs"
   ],
   "styles": [
-    "styles/spess-test.css"
+    "styles/spess-test-styles.css"
   ],
   "packs": [
     {
