@@ -1,0 +1,40 @@
+{
+  "id": "space-test",
+  "title": "Space Bard 2e Test",
+  "description": "",
+  "version": "0.2.1",
+  "author": "Kayla Manahan",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "11"
+  },
+  "scripts": [
+    "scripts/spess-test.js"
+  ],
+  "esmodules": [
+    "scripts/spess-test-module.mjs"
+  ],
+  "styles": [
+    "styles/spess-test.css"
+  ],
+  "packs": [
+    {
+      "name": "enemies",
+      "label": "My Enemies",
+      "type": "Actor"
+    },
+    {
+      "name": "items",
+      "label": "My Items",
+      "type": "Item"
+    }
+  ],
+  "socket": false,
+  "initiative": "1d20",
+  "gridDistance": 1,
+  "gridUnits": "tile",
+  "primaryTokenAttribute": "resources.hp",
+  "secondaryTokenAttribute": "resources.shield",
+  "url": "https://www.worldanvil.com/w/space-bard-2-mookgoon/"
+}
